@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pieter Gilissen - Maritime Project Manager</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Calibri', 'Segoe UI', sans-serif;
+            background: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            display: flex;
+            max-width: 8.5in;
+            min-height: 11in;
+            margin: 20px auto;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .left-column {
+            flex: 1;
+            padding: 40px 30px;
+            background: white;
+        }
+
+        .right-column {
+            width: 30%;
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            padding: 40px 25px;
+            color: white;
+            overflow-y: auto;
+        }
+
+        .header {
+            margin-bottom: 20px;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 12px;
+        }
+
+        .name {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 2px;
+        }
+
+        .title {
+            font-size: 11px;
+            color: #3498db;
+            font-weight: 600;
+            margin-bottom: 8px;
+            letter-spacing: 0.5px;
+        }
+
+        .contact-info {
+            font-size: 9px;
+            color: #555;
+            line-height: 1.4;
+        }
+
+        .section {
+            margin-bottom: 18px;
+        }
+
+        .section-title {
+            font-size: 11px;
+            font-weight: bold;
+            color: #2c3e50;
+            background: #ecf0f1;
+            padding: 6px 10px;
+            margin-bottom: 10px;
+            border-left: 4px solid #3498db;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .job {
+            margin-bottom: 12px;
+        }
+
+        .job-header {
+            font-size: 10px;
+            color: #555;
+            margin-bottom: 2px;
+        }
+
+        .job-company {
+            font-weight: 600;
+            color: #2c3e50;
+        }
+
+        .job-title {
+            font-size: 10px;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 2px;
+        }
+
+        .job-description {
+            font-size: 9px;
+            color: #444;
+            margin-bottom: 4px;
+            line-height: 1.4;
+        }
+
+        .job-bullets {
+            font-size: 9px;
+            color: #555;
+            margin-left: 12px;
+            line-height: 1.4;
+        }
+
+        .job-bullets li {
+            margin-bottom: 2px;
+        }
+
+        .job-projects {
+            font-size: 9px;
+            color: #555;
+            margin-left: 12px;
+            line-height: 1.4;
+        }
+
+        .project-item {
+            margin-bottom: 3px;
+        }
+
+        .achievement-section {
+            font-size: 9px;
+            color: #555;
+            margin-bottom: 3px;
+        }
+
+        .achievement-section strong {
+            color: #2c3e50;
+        }
+
+        .education {
+            font-size: 9px;
+            margin-bottom: 6px;
+        }
+
+        .education-degree {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .education-school {
+            color: #3498db;
+            font-weight: 600;
+            font-size: 8.5px;
+        }
+
+        .education-date {
+            color: #666;
+            font-size: 8px;
+        }
+
+        .cert-category {
+            font-weight: bold;
+            color: #2c3e50;
+            font-size: 9px;
+            margin-top: 6px;
+            margin-bottom: 2px;
+        }
+
+        .cert-category:first-of-type {
+            margin-top: 0;
+        }
+
+        .cert-items {
+            font-size: 8.5px;
+            color: #555;
+            line-height: 1.4;
+            margin-bottom: 2px;
+        }
+
+        /* Right Column Styling */
+        .sidebar-section {
+            margin-bottom: 22px;
+        }
+
+        .sidebar-title {
+            font-size: 11px;
+            font-weight: bold;
+            color: white;
+            margin-bottom: 10px;
+            padding-bottom: 6px;
+            border-bottom: 2px solid #3498db;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .achievement {
+            background: rgba(52, 152, 219, 0.1);
+            padding: 8px;
+            margin-bottom: 8px;
+            border-radius: 3px;
+            font-size: 8.5px;
+            line-height: 1.4;
+            border-left: 3px solid #3498db;
+        }
+
+        .achievement-title {
+            font-weight: bold;
+            color: #ecf0f1;
+            margin-bottom: 3px;
+        }
+
+        .achievement-text {
+            color: #bdc3c7;
+            font-size: 8px;
+            line-height: 1.3;
+        }
+
+        .skills-list {
+            font-size: 8.5px;
+            color: #ecf0f1;
+            line-height: 1.6;
+        }
+
+        .skill-category {
+            font-weight: bold;
+            color: #3498db;
+            margin-top: 8px;
+            margin-bottom: 3px;
+            font-size: 8px;
+            text-transform: uppercase;
+        }
+
+        .skill-category:first-child {
+            margin-top: 0;
+        }
+
+        .personal-info {
+            font-size: 8.5px;
+            color: #bdc3c7;
+            line-height: 1.6;
+        }
+
+        .personal-label {
+            font-weight: bold;
+            color: #3498db;
+            display: block;
+            margin-top: 8px;
+            margin-bottom: 3px;
+            font-size: 8px;
+            text-transform: uppercase;
+        }
+
+        .personal-label:first-of-type {
+            margin-top: 0;
+        }
+
+        .summary {
+            font-size: 9px;
+            color: #444;
+            line-height: 1.5;
+            margin-bottom: 12px;
+        }
+
+        @media print {
+            body {
+                background: white;
+            }
+            .container {
+                margin: 0;
+                box-shadow: none;
+            }
+        }
+
+        @page {
+            size: A4;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- LEFT COLUMN -->
+        <div class="left-column">
+            <div class="header">
+                <div class="name">PIETER GILISSEN</div>
+                <div class="title">Maritime Project Manager | Marine Engineer | Project Engineer</div>
+                <div class="contact-info">
+                    <strong>+31 6 1366 1955</strong> | <strong>pietergilissen@gmail.com</strong> | <strong>Dutch National</strong>
+                </div>
+            </div>
+
+            <div class="summary">
+                Accomplished maritime project manager with 20+ years' progressive experience delivering complex international shipyard projects and offshore engineering programmes. Proven track record managing €2.8M–€90M+ projects across Vietnam, Cuba, and European shipyards, consistently delivering on schedule and within budget. PRINCE2-certified leader with exceptional stakeholder management, contract negotiation, and technical problem-solving expertise. Currently relocating to New Zealand (November 2025) with active maritime operations experience and hands-on marine systems knowledge. Results-driven professional committed to excellence and cost-effective delivery.
+            </div>
+
+            <div class="section">
+                <div class="section-title">Professional Experience</div>
+
+                <div class="job">
+                    <div class="job-title">Active Maritime Operations</div>
+                    <div class="job-header"><span class="job-company">World Sailing Expedition – Roller Coaster Catamaran</span> | April 2023 – Present | Global</div>
+                    <div class="job-description">Currently completing partial circumnavigation aboard custom catamaran with family. Departed Netherlands April 2023; crossed Atlantic December 2023; transited Caribbean and Pacific; arrival New Zealand November 2025. During the trip I've carried out several consulting and assisting roles for other vessels such as:</div>
+                    <ul class="job-bullets">
+                        <li>Hull and machinery systems operation and troubleshooting in extended oceanic conditions</li>
+                        <li>Designed and oversaw complete retrofit of alternative propulsion system</li>
+                        <li>Damage assessment and remediation during extended passages</li>
+                        <li>Practical application of maritime engineering and project management</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <div class="job-title">Maritime Surveyor & Risk Consultant</div>
+                    <div class="job-header"><span class="job-company">Artium Experts / Arntz van Helden / Halyard Survey</span> | March 2017 – April 2023 | Netherlands</div>
+                    <div class="job-description">Led maritime damage and risk assessment operations serving offshore industry, superyacht construction, and commercial shipping sectors on behalf of leading Dutch marine insurance consultants.</div>
+                    <ul class="job-bullets">
+                        <li>Managed complex damage claims and liability investigations across offshore, superyacht, and commercial shipping operations</li>
+                        <li>Conducted comprehensive risk inspections and insurability assessments for major construction projects and shipyard facilities</li>
+                        <li>Negotiated salvage and repair contracts; organized multi-vessel recovery operations</li>
+                        <li>Prepared expert reports determining root cause analysis and insurance liability</li>
+                        <li>Assessed risk profiles for construction projects and major maritime operations</li>
+                    </ul>
+                    <div style="font-size: 9px; color: #2c3e50; font-weight: bold; margin: 6px 0 3px 0;">Business Transformation Initiative (2022):</div>
+                    <ul class="job-bullets">
+                        <li>Led company-wide digital transformation migrating from legacy ERP system to cloud-based solution</li>
+                        <li>Designed and implemented new business processes aligned with cloud-first workflow architecture</li>
+                        <li>Coordinated stakeholder engagement across all departments ensuring seamless transition to cloud operations</li>
+                        <li>Managed change management programme to optimize adoption of new systems and procedures</li>
+                        <li>Achieved full operational transition with zero service disruption to client deliverables</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <div class="job-title">Senior Project Manager – International Shipyard Operations</div>
+                    <div class="job-header"><span class="job-company">Damen Shipyards B.V.</span> | October 2014 – December 2016 | Netherlands</div>
+                    <div class="job-description">Directed end-to-end delivery of multiple custom vessel construction projects (€5.4M–€6.8M) through Damen Technical Cooperation programme, managing geographically dispersed teams across Cuba and Vietnam shipyards.</div>
+                    <div style="font-size: 9px; color: #2c3e50; font-weight: bold; margin: 4px 0 3px 0;">Notable Projects:</div>
+                    <div class="job-projects">
+                        <div class="project-item"><strong>Stantanker 5412</strong> (€6.3M): Bunkertanker for Cuban government with HFO/MDO systems; delivered December 2015</div>
+                        <div class="project-item"><strong>Stanpatrol 4207</strong> (€5.4M): Coastal patrol vessel for Venezuelan Navy; delivered October 2015</div>
+                        <div class="project-item"><strong>Stanlander 5612</strong> (€6.8M): Amphibious landing craft for Bahamas marine; engineered and delivered with heavy-load logistics</div>
+                        <div class="project-item"><strong>8× Stanlander 5612 Series</strong> (€6.5M each): Landing craft programme for Venezuelan Navy (4 units Cuba, 4 units Vietnam)</div>
+                    </div>
+                    <div style="font-size: 9px; color: #2c3e50; font-weight: bold; margin: 4px 0 3px 0;">Key Achievements:</div>
+                    <ul class="job-bullets">
+                        <li>Served as primary client interface for schedule, budget, and quality performance</li>
+                        <li>Managed multi-site teams and vendor contracts across multiple time zones</li>
+                        <li>Delivered complex projects on schedule and within budget despite international logistics complexity</li>
+                        <li>Coordinated design engineering, quality oversight, and operational readiness</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <div class="job-title">Project Manager – Enterprise Transformation</div>
+                    <div class="job-header"><span class="job-company">One IHC Merwede B.V.</span> | August 2013 – September 2014 | Netherlands</div>
+                    <div class="job-description">Led €2.8M corporate-wide project management standardization programme implementing unified methodology and digital tools (PDM, CAD, ERP systems) across IHC Dredgers and Offshore & Marine divisions.</div>
+                    <ul class="job-bullets">
+                        <li>Directed cross-functional team (4 FTE) overseeing enterprise-wide standardization</li>
+                        <li>Designed and implemented unified project management framework</li>
+                        <li>Coordinated technology integration and governance across business units</li>
+                        <li>Delivered methodology adopted enterprise-wide</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <div class="job-title">Manager, Subcontracting & Outsourced Projects</div>
+                    <div class="job-header"><span class="job-company">IHC Merwede B.V.</span> | January 2011 – August 2013 | Netherlands</div>
+                    <div class="job-description">Managed outsourcing department overseeing €4.8M–€12.5M+ external construction and conversion projects globally. Supervised 8 FTE team with responsibility for vendor selection, contract administration, quality control, and delivery.</div>
+                    <div style="font-size: 9px; color: #2c3e50; font-weight: bold; margin: 4px 0 3px 0;">Representative Projects:</div>
+                    <div class="job-projects">
+                        <div class="project-item"><strong>Van Oord Dredgers – Artemis & Athena</strong> (€4.8M each): Complete hull packages for suction cutter dredgers</div>
+                        <div class="project-item"><strong>Beaver Dredger Series</strong> (100+ hulls): Global outsourced hull construction programme</div>
+                        <div class="project-item"><strong>Subsea 7 & Sapura J-Lay Vessels</strong> (€3M each): Specialized subsea operations vessel fabrication</div>
+                    </div>
+                    <div style="font-size: 9px; color: #2c3e50; font-weight: bold; margin: 4px 0 3px 0;">Key Achievements:</div>
+                    <ul class="job-bullets">
+                        <li>Implemented strategic sourcing and global supplier relationship management</li>
+                        <li>Negotiated contracts and managed international vendor performance</li>
+                        <li>Oversaw new build and conversion projects from engineering through commissioning</li>
+                        <li>Developed quality assurance and schedule monitoring systems</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <div class="job-title">Subcontract Manager – Offshore Oil & Gas</div>
+                    <div class="job-header"><span class="job-company">Heerema Fabrication Group B.V.</span> | March 2006 – December 2010 | Netherlands</div>
+                    <div class="job-description">Managed all subcontracting activities (materials, systems, installation services) for offshore oil and gas production platforms with contract values €12.5M–€90M+.</div>
+                    <div style="font-size: 9px; color: #2c3e50; font-weight: bold; margin: 4px 0 3px 0;">Major Projects:</div>
+                    <div class="job-projects">
+                        <div class="project-item"><strong>BP Valhall Production Platform</strong> (€90M+ subcontract value): End-to-end subcontract management for North Sea platform</div>
+                        <div class="project-item"><strong>Gaz de France G14 & D15</strong> (€12.5M): Complete procurement and lifecycle management</div>
+                        <div class="project-item"><strong>PetroCanada De Ruyter Platform</strong>: Subcontract coordination</div>
+                    </div>
+                    <div style="font-size: 9px; color: #2c3e50; font-weight: bold; margin: 4px 0 3px 0;">Key Achievements:</div>
+                    <ul class="job-bullets">
+                        <li>Managed supplier evaluation, procurement, and contract development</li>
+                        <li>Coordinated pre-project planning and cost estimating for future tenders</li>
+                        <li>Performed on-site construction oversight and regulatory compliance monitoring</li>
+                        <li>Tracked performance and managed vendor relationships</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <div class="job-title">Project Engineer – Marine Systems Design</div>
+                    <div class="job-header"><span class="job-company">Marquip B.V.</span> | March 2004 – February 2006 | Netherlands</div>
+                    <div class="job-description">Designed and engineered advanced exhaust systems for superyacht and motor yacht applications.</div>
+                    <ul class="job-bullets">
+                        <li>System design engineering and technical calculations for luxury yacht market</li>
+                        <li>Technical drawing coordination and CAD management</li>
+                        <li>User documentation development and commissioning procedures</li>
+                        <li>Sea trial participation and acceptance testing</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Education</div>
+                <div class="education">
+                    <div class="education-degree">BSc Mechanical Engineering</div>
+                    <div class="education-school">Rijswijk Technical University, Faculty of Mechanical Engineering</div>
+                    <div class="education-date">2002</div>
+                </div>
+                <div class="education">
+                    <div class="education-degree">HAVO (Secondary Education)</div>
+                    <div class="education-school">Rijlands Lyceum, Oegstgeest</div>
+                    <div class="education-date">1998</div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Professional Certifications</div>
+                <div class="cert-category">Project Management:</div>
+                <div class="cert-items">PRINCE2 Project Management Certification (October 2013) • TIAS Nimbas International Contracting (March 2010) • Krauthammer Leadership Development Program (February 2009) • IHC Merwede Management School (November 2011)</div>
+                <div class="cert-category">Operational Leadership & Safety:</div>
+                <div class="cert-items">VCA for Operational Supervisors (March 2012) • NIVRE-RE Professional Certifications (2019–2020) • Offshore and Safety-Related Courses (2006–2013) • Psychology of Influence & Communication (March 2008)</div>
+            </div>
+        </div>
+
+        <!-- RIGHT COLUMN -->
+        <div class="right-column">
+            <div class="sidebar-section">
+                <div class="sidebar-title">Key Achievements & Strengths</div>
+                
+                <div class="achievement">
+                    <div class="achievement-title">Strategic Project Delivery</div>
+                    <div class="achievement-text">Successfully delivered €5.4M–€6.8M complex international shipyard projects on schedule and within budget • Managed €2.8M enterprise transformation programme across multiple business divisions • Consistently achieved >95% on-time delivery rate for outsourced construction projects • Coordinated design-to-delivery of 8-vessel landing craft series for Venezuelan Navy</div>
+                </div>
+
+                <div class="achievement">
+                    <div class="achievement-title">Risk Management & Assessment</div>
+                    <div class="achievement-text">Conducted comprehensive maritime risk assessments for €12.5M–€90M+ offshore platforms • Managed damage claims and liability investigations for superyacht and offshore operations • Implemented risk mitigation strategies reducing project delays by 15% • Organized complex salvage and recovery operations for maritime incidents</div>
+                </div>
+
+                <div class="achievement">
+                    <div class="achievement-title">Vendor & Contract Management</div>
+                    <div class="achievement-text">Strategic sourcing and management of global suppliers across Netherlands, Vietnam, Serbia, Cuba • Negotiated and administered contracts valued €3M–€90M+ • Reduced procurement costs by streamlining vendor management processes • Established long-term partnerships with international shipyard and fabrication facilities</div>
+                </div>
+
+                <div class="achievement">
+                    <div class="achievement-title">Team Leadership</div>
+                    <div class="achievement-text">Directed project teams and supervised 8 FTE subcontracting department • Led cross-functional enterprise transformation team (4 FTE) across IHC divisions • Managed on-site project supervision teams across multiple geographic locations • Mentored junior staff and developed technical project management skills</div>
+                </div>
+
+                <div class="achievement">
+                    <div class="achievement-title">Practical Maritime Operations</div>
+                    <div class="achievement-text">Active sailor with circumnavigation experience in cruising catamaran • Deep knowledge of hull and machinery systems in extended ocean operations • Designed and oversaw propulsion system retrofit for custom catamaran • Demonstrated problem-solving and practical troubleshooting in remote maritime environments</div>
+                </div>
+            </div>
+
+            <div class="sidebar-section">
+                <div class="sidebar-title">Core Competencies</div>
+                <div class="skills-list">
+                    <div class="skill-category">Project Management</div>
+                    Strategic planning • Budget management (€2.8M–€90M+) • Schedule optimization • Multi-site coordination • Stakeholder management • PRINCE2 methodology • Risk mitigation • Team leadership
+
+                    <div class="skill-category">Maritime & Engineering</div>
+                    Shipyard operations • Marine systems engineering • Design coordination • Offshore platforms • Dredging systems • Hull and machinery • Sea trials
+
+                    <div class="skill-category">Commercial Management</div>
+                    Vendor management • Contract negotiation • Procurement strategy • Cost estimation • Quality assurance • Supplier relationships • Insurance & liability
+
+                    <div class="skill-category">IT Systems & Digital</div>
+                    ERP systems • Cloud infrastructure • Business process optimization • Project management software • Planning tools • AI capabilities & emerging technologies
+                </div>
+            </div>
+
+            <div class="sidebar-section">
+                <div class="personal-label">Languages</div>
+                <div class="personal-info">
+                    Dutch (Native)<br>
+                    English (Fluent – Professional)
+                </div>
+
+                <div class="personal-label">Interests</div>
+                <div class="personal-info">
+                    Competitive and recreational sailing<br>
+                    Marine engineering<br>
+                    Scuba diving<br>
+                    IT systems & digital transformation<br>
+                    ERP and project management software<br>
+                    AI capabilities and emerging technologies
+                </div>
+
+                <div class="personal-label">Relocation</div>
+                <div class="personal-info">
+                    Scheduled arrival New Zealand November 2025 via active sailing expedition. Seeking maritime project management or project engineer roles in NZ maritime industry.
+                </div>
+
+                <div class="personal-label">References</div>
+                <div class="personal-info">
+                    Available upon request
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
