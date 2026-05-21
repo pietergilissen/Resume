@@ -1,59 +1,74 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="w3_w7sFro6cN0IKflH21">
-    <mxGraphModel dx="577" dy="971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1330" dy="1945" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="-jifWhX2GEl-njOeP832-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Quattro 48v 5000" vertex="1">
-          <mxGeometry height="170" width="100" x="140" y="360" as="geometry" />
+        <mxCell id="008V_TVZDAGot_7ZYPlG-1" parent="1" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://bnhgenerators.com/wp-content/uploads/2022/02/18EFKOZD_1.jpg;" value="" vertex="1">
+          <mxGeometry height="132" width="252.35" x="50" y="85.12" as="geometry" />
         </mxCell>
-        <mxCell id="-jifWhX2GEl-njOeP832-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Quattro 48v 5000" vertex="1">
-          <mxGeometry height="170" width="100" x="290" y="360" as="geometry" />
+        <mxCell id="008V_TVZDAGot_7ZYPlG-3" parent="1" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://southernboating.com/wp-content/uploads/2018/01/Marinco-EEL_app_1_RT.jpg;" value="" vertex="1">
+          <mxGeometry height="106.88" width="116.03" x="302.35" y="110.24000000000001" as="geometry" />
         </mxCell>
-        <mxCell id="-jifWhX2GEl-njOeP832-3" parent="1" style="whiteSpace=wrap;html=1;" value="Generator" vertex="1">
-          <mxGeometry height="90" width="180" x="140" y="160" as="geometry" />
+        <mxCell id="008V_TVZDAGot_7ZYPlG-5" parent="1" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://www.outbackmarine.com.au/assets/full/VIC.QUA482504010.jpg?20220208202354;" value="" vertex="1">
+          <mxGeometry height="170" width="106.25" x="123.05" y="320" as="geometry" />
         </mxCell>
-        <mxCell id="-jifWhX2GEl-njOeP832-4" parent="1" style="whiteSpace=wrap;html=1;rotation=0;" value="Shore Power" vertex="1">
-          <mxGeometry height="70" width="80" x="370" y="170" as="geometry" />
+        <mxCell id="008V_TVZDAGot_7ZYPlG-6" parent="1" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://www.outbackmarine.com.au/assets/full/VIC.QUA482504010.jpg?20220208202354;" value="" vertex="1">
+          <mxGeometry height="170" width="106.25" x="260" y="320" as="geometry" />
         </mxCell>
-        <mxCell id="-jifWhX2GEl-njOeP832-5" edge="1" parent="1" source="-jifWhX2GEl-njOeP832-3" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;exitX=0.389;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="-jifWhX2GEl-njOeP832-1" value="">
-          <mxGeometry relative="1" width="140" as="geometry">
-            <Array as="points">
-              <mxPoint x="190" y="250" />
-            </Array>
-            <mxPoint x="240" y="320" as="sourcePoint" />
-            <mxPoint x="350" y="360" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="008V_TVZDAGot_7ZYPlG-7" parent="1" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://www.energyeco.com.au/cdn/shop/files/1622016220_upload_documents_1600_640_q90-SmartSolar_20MPPT_20150-45_20_top_1.png?v=1709783363&amp;width=1946;" value="" vertex="1">
+          <mxGeometry height="89" width="122.11" x="520" y="128.12" as="geometry" />
         </mxCell>
-        <mxCell id="-jifWhX2GEl-njOeP832-6" edge="1" parent="1" source="-jifWhX2GEl-njOeP832-3" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="-jifWhX2GEl-njOeP832-2" value="">
-          <mxGeometry relative="1" width="140" as="geometry">
-            <Array as="points">
-              <mxPoint x="230" y="310" />
-              <mxPoint x="340" y="310" />
-            </Array>
-            <mxPoint x="240" y="290" as="sourcePoint" />
-            <mxPoint x="380" y="370" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="008V_TVZDAGot_7ZYPlG-8" parent="1" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://www.energyeco.com.au/cdn/shop/files/1622016220_upload_documents_1600_640_q90-SmartSolar_20MPPT_20150-45_20_top_1.png?v=1709783363&amp;width=1946;" value="" vertex="1">
+          <mxGeometry height="89" width="122.11" x="650" y="128.12" as="geometry" />
         </mxCell>
-        <mxCell id="-jifWhX2GEl-njOeP832-7" edge="1" parent="1" source="-jifWhX2GEl-njOeP832-4" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="-jifWhX2GEl-njOeP832-1" value="">
-          <mxGeometry relative="1" width="140" as="geometry">
-            <Array as="points">
-              <mxPoint x="410" y="280" />
-              <mxPoint x="215" y="280" />
-            </Array>
-            <mxPoint x="410" y="300" as="sourcePoint" />
-            <mxPoint x="400" y="420" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="008V_TVZDAGot_7ZYPlG-13" parent="1" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://lifepo4oz.com/cdn/shop/files/jinkopanel.png?v=1717055223;" value="" vertex="1">
+          <mxGeometry height="159.76" width="103.23" x="446.25" y="-79.76" as="geometry" />
         </mxCell>
-        <mxCell id="-jifWhX2GEl-njOeP832-8" edge="1" parent="1" source="-jifWhX2GEl-njOeP832-4" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" target="-jifWhX2GEl-njOeP832-2" value="">
-          <mxGeometry relative="1" width="140" as="geometry">
-            <Array as="points">
-              <mxPoint x="430" y="310" />
-              <mxPoint x="365" y="310" />
-            </Array>
-            <mxPoint x="440" y="250" as="sourcePoint" />
-            <mxPoint x="380" y="420" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="008V_TVZDAGot_7ZYPlG-15" parent="1" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://lifepo4oz.com/cdn/shop/files/jinkopanel.png?v=1717055223;" value="" vertex="1">
+          <mxGeometry height="159.76" width="103.23" x="538.88" y="-79.75999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="008V_TVZDAGot_7ZYPlG-16" parent="1" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://lifepo4oz.com/cdn/shop/files/jinkopanel.png?v=1717055223;" value="" vertex="1">
+          <mxGeometry height="159.76" width="103.23" x="630" y="-79.76000000000002" as="geometry" />
+        </mxCell>
+        <mxCell id="008V_TVZDAGot_7ZYPlG-17" parent="1" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://lifepo4oz.com/cdn/shop/files/jinkopanel.png?v=1717055223;" value="" vertex="1">
+          <mxGeometry height="159.76" width="103.23" x="724" y="-79.76" as="geometry" />
+        </mxCell>
+        <mxCell id="008V_TVZDAGot_7ZYPlG-20" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="153" width="240.32999999999996" x="37.96000000000001" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="008V_TVZDAGot_7ZYPlG-18" parent="008V_TVZDAGot_7ZYPlG-20" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://solidstatemarine.com/cdn/shop/files/24v420_8D.webp?v=1764773854;" value="" vertex="1">
+          <mxGeometry height="123" width="218.29" as="geometry" />
+        </mxCell>
+        <mxCell id="008V_TVZDAGot_7ZYPlG-19" parent="008V_TVZDAGot_7ZYPlG-20" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://solidstatemarine.com/cdn/shop/files/24v420_8D.webp?v=1764773854;" value="" vertex="1">
+          <mxGeometry height="123" width="218.29" x="22.039999999999992" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="008V_TVZDAGot_7ZYPlG-22" parent="1" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://enerdrive.com.au/wp-content/uploads/2025/09/B-XT-170-SF-SP.jpg;" value="" vertex="1">
+          <mxGeometry height="120" width="119.31" x="690" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="008V_TVZDAGot_7ZYPlG-23" parent="1" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://enerdrive.com.au/wp-content/uploads/2025/09/B-XT-170-SF-SP.jpg;" value="" vertex="1">
+          <mxGeometry height="120" width="119.31" x="538.88" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="008V_TVZDAGot_7ZYPlG-24" parent="1" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://www.outbackmarine.com.au/assets/full/BAL.96-48-100-K8.jpg?20220208202354;" value="" vertex="1">
+          <mxGeometry height="150" width="150" x="70" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="008V_TVZDAGot_7ZYPlG-25" parent="1" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://www.outbackmarine.com.au/assets/full/BAL.96-48-100-K8.jpg?20220208202354;" value="" vertex="1">
+          <mxGeometry height="150" width="150" x="229.3" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="008V_TVZDAGot_7ZYPlG-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="48V Busbar" vertex="1">
+          <mxGeometry height="40" width="670" x="120" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="008V_TVZDAGot_7ZYPlG-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="24V Busbar" vertex="1">
+          <mxGeometry height="40" width="670" x="120" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="008V_TVZDAGot_7ZYPlG-28" parent="1" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://cdn1.comptoirnautique.com/51013-large_default/se300-electric-bow-thruster-o-300-mm-48v.jpg;" value="" vertex="1">
+          <mxGeometry height="147" width="147" x="310" y="643" as="geometry" />
+        </mxCell>
+        <mxCell id="008V_TVZDAGot_7ZYPlG-29" parent="1" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://www.marinewarehouse.net/images/maxwell/windlasses_winches/VW1000.jpg;" value="" vertex="1">
+          <mxGeometry height="156.5" width="156.5" x="493.5" y="638.25" as="geometry" />
+        </mxCell>
+        <mxCell id="008V_TVZDAGot_7ZYPlG-30" parent="1" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://www.solar4rvs.com.au/cdn/shop/files/victron-orion-tr-smart-48-24-16-isolated-charger-vic-ori482438120.webp?v=1770260858&amp;width=2000;" value="" vertex="1">
+          <mxGeometry height="118" width="143.36" x="665.95" y="657.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
