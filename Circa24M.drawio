@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net">
-  <diagram name="Page-1" id="w3_w7sFro6cN0IKflH21">
+<mxfile host="app.diagrams.net" pages="3">
+  <diagram name="48 Volt" id="w3_w7sFro6cN0IKflH21">
     <mxGraphModel dx="2094" dy="1908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -235,6 +235,214 @@
         <mxCell id="SV5i6e4VI1yvzVifsj4v-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="48 volt alternators" vertex="1">
           <mxGeometry height="30" width="60" x="632.75" y="490" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="24 Volt" id="M_H6m6_rwUqnXgd63BuI">
+    <mxGraphModel dx="2036" dy="1874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-0" />
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-1" parent="oYoT9YH4wfMcaHvqYSbv-0" />
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-2" edge="1" parent="oYoT9YH4wfMcaHvqYSbv-1" source="oYoT9YH4wfMcaHvqYSbv-4" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="oYoT9YH4wfMcaHvqYSbv-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-3" edge="1" parent="oYoT9YH4wfMcaHvqYSbv-1" source="oYoT9YH4wfMcaHvqYSbv-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="oYoT9YH4wfMcaHvqYSbv-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="239" y="269" />
+              <mxPoint x="377" y="269" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-4" parent="oYoT9YH4wfMcaHvqYSbv-1" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://bnhgenerators.com/wp-content/uploads/2022/02/18EFKOZD_1.jpg;" value="" vertex="1">
+          <mxGeometry height="132" width="252.35" x="50" y="85.12" as="geometry" />
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-5" edge="1" parent="oYoT9YH4wfMcaHvqYSbv-1" source="oYoT9YH4wfMcaHvqYSbv-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="oYoT9YH4wfMcaHvqYSbv-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-6" edge="1" parent="oYoT9YH4wfMcaHvqYSbv-1" source="oYoT9YH4wfMcaHvqYSbv-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="oYoT9YH4wfMcaHvqYSbv-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-7" parent="oYoT9YH4wfMcaHvqYSbv-1" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://southernboating.com/wp-content/uploads/2018/01/Marinco-EEL_app_1_RT.jpg;" value="" vertex="1">
+          <mxGeometry height="106.88" width="116.03" x="302.35" y="97.68" as="geometry" />
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-8" edge="1" parent="oYoT9YH4wfMcaHvqYSbv-1" source="oYoT9YH4wfMcaHvqYSbv-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=1;entryY=0.668;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" target="oYoT9YH4wfMcaHvqYSbv-47" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="176" y="510" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-9" edge="1" parent="oYoT9YH4wfMcaHvqYSbv-1" source="oYoT9YH4wfMcaHvqYSbv-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.119;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" target="oYoT9YH4wfMcaHvqYSbv-37" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-10" edge="1" parent="oYoT9YH4wfMcaHvqYSbv-1" source="oYoT9YH4wfMcaHvqYSbv-11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;startArrow=classic;startFill=1;" target="oYoT9YH4wfMcaHvqYSbv-14" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-11" parent="oYoT9YH4wfMcaHvqYSbv-1" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://www.outbackmarine.com.au/assets/full/VIC.QUA482504010.jpg?20220208202354;" value="" vertex="1">
+          <mxGeometry height="170" width="106.25" x="123.05" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-12" edge="1" parent="oYoT9YH4wfMcaHvqYSbv-1" source="oYoT9YH4wfMcaHvqYSbv-14" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.419;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" target="oYoT9YH4wfMcaHvqYSbv-37" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-13" edge="1" parent="oYoT9YH4wfMcaHvqYSbv-1" source="oYoT9YH4wfMcaHvqYSbv-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="oYoT9YH4wfMcaHvqYSbv-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-14" parent="oYoT9YH4wfMcaHvqYSbv-1" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://www.outbackmarine.com.au/assets/full/VIC.QUA482504010.jpg?20220208202354;" value="" vertex="1">
+          <mxGeometry height="170" width="106.25" x="350.75" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-15" edge="1" parent="oYoT9YH4wfMcaHvqYSbv-1" source="oYoT9YH4wfMcaHvqYSbv-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="oYoT9YH4wfMcaHvqYSbv-37" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="581" y="250" />
+              <mxPoint x="470" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-16" parent="oYoT9YH4wfMcaHvqYSbv-1" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://www.energyeco.com.au/cdn/shop/files/1622016220_upload_documents_1600_640_q90-SmartSolar_20MPPT_20150-45_20_top_1.png?v=1709783363&amp;width=1946;" value="" vertex="1">
+          <mxGeometry height="89" width="122.11" x="520" y="128.12" as="geometry" />
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-17" edge="1" parent="oYoT9YH4wfMcaHvqYSbv-1" source="oYoT9YH4wfMcaHvqYSbv-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.558;entryY=-0.025;entryDx=0;entryDy=0;entryPerimeter=0;" target="oYoT9YH4wfMcaHvqYSbv-37" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="711" y="280" />
+              <mxPoint x="494" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-18" parent="oYoT9YH4wfMcaHvqYSbv-1" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://www.energyeco.com.au/cdn/shop/files/1622016220_upload_documents_1600_640_q90-SmartSolar_20MPPT_20150-45_20_top_1.png?v=1709783363&amp;width=1946;" value="" vertex="1">
+          <mxGeometry height="89" width="122.11" x="650" y="128.12" as="geometry" />
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-19" parent="oYoT9YH4wfMcaHvqYSbv-1" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://lifepo4oz.com/cdn/shop/files/jinkopanel.png?v=1717055223;" value="" vertex="1">
+          <mxGeometry height="159.76" width="103.23" x="446.25" y="-79.76" as="geometry" />
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-20" edge="1" parent="oYoT9YH4wfMcaHvqYSbv-1" source="oYoT9YH4wfMcaHvqYSbv-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="oYoT9YH4wfMcaHvqYSbv-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-21" parent="oYoT9YH4wfMcaHvqYSbv-1" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://lifepo4oz.com/cdn/shop/files/jinkopanel.png?v=1717055223;" value="" vertex="1">
+          <mxGeometry height="159.76" width="103.23" x="538.88" y="-79.75999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-22" edge="1" parent="oYoT9YH4wfMcaHvqYSbv-1" source="oYoT9YH4wfMcaHvqYSbv-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="oYoT9YH4wfMcaHvqYSbv-18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-23" parent="oYoT9YH4wfMcaHvqYSbv-1" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://lifepo4oz.com/cdn/shop/files/jinkopanel.png?v=1717055223;" value="" vertex="1">
+          <mxGeometry height="159.76" width="103.23" x="630" y="-79.76000000000002" as="geometry" />
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-24" parent="oYoT9YH4wfMcaHvqYSbv-1" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://lifepo4oz.com/cdn/shop/files/jinkopanel.png?v=1717055223;" value="" vertex="1">
+          <mxGeometry height="159.76" width="103.23" x="724" y="-79.76" as="geometry" />
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-25" connectable="0" parent="oYoT9YH4wfMcaHvqYSbv-1" style="group" value="" vertex="1">
+          <mxGeometry height="153" width="240.32999999999996" x="37.96000000000001" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-26" parent="oYoT9YH4wfMcaHvqYSbv-25" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://solidstatemarine.com/cdn/shop/files/24v420_8D.webp?v=1764773854;" value="" vertex="1">
+          <mxGeometry height="123" width="218.29" as="geometry" />
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-27" parent="oYoT9YH4wfMcaHvqYSbv-25" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://solidstatemarine.com/cdn/shop/files/24v420_8D.webp?v=1764773854;" value="" vertex="1">
+          <mxGeometry height="113" width="200.54" x="22.04" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-28" parent="oYoT9YH4wfMcaHvqYSbv-25" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="24 volt house bank" vertex="1">
+          <mxGeometry height="30" width="87.96" x="-27.96" y="123" as="geometry" />
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-33" edge="1" parent="oYoT9YH4wfMcaHvqYSbv-1" source="oYoT9YH4wfMcaHvqYSbv-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="oYoT9YH4wfMcaHvqYSbv-57" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-34" parent="oYoT9YH4wfMcaHvqYSbv-1" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://www.outbackmarine.com.au/assets/full/BAL.96-48-100-K8.jpg?20220208202354;" value="" vertex="1">
+          <mxGeometry height="150" width="150" x="152.35" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-35" edge="1" parent="oYoT9YH4wfMcaHvqYSbv-1" source="oYoT9YH4wfMcaHvqYSbv-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="oYoT9YH4wfMcaHvqYSbv-59" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-36" parent="oYoT9YH4wfMcaHvqYSbv-1" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://www.outbackmarine.com.au/assets/full/BAL.96-48-100-K8.jpg?20220208202354;" value="" vertex="1">
+          <mxGeometry height="150" width="150" x="345.39" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-37" parent="oYoT9YH4wfMcaHvqYSbv-1" style="rounded=0;whiteSpace=wrap;html=1;" value="24V Busbar" vertex="1">
+          <mxGeometry height="40" width="670" x="120" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-38" edge="1" parent="oYoT9YH4wfMcaHvqYSbv-1" source="oYoT9YH4wfMcaHvqYSbv-37" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=0.915;exitY=0.99;exitDx=0;exitDy=0;exitPerimeter=0;" target="oYoT9YH4wfMcaHvqYSbv-46" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="610" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-41" parent="oYoT9YH4wfMcaHvqYSbv-1" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://cdn1.comptoirnautique.com/51013-large_default/se300-electric-bow-thruster-o-300-mm-48v.jpg;" value="" vertex="1">
+          <mxGeometry height="147" width="147" x="-120" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-42" edge="1" parent="oYoT9YH4wfMcaHvqYSbv-1" source="oYoT9YH4wfMcaHvqYSbv-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=0.25;exitY=0;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" target="oYoT9YH4wfMcaHvqYSbv-37" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="515" y="640" />
+              <mxPoint x="455" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-43" parent="oYoT9YH4wfMcaHvqYSbv-1" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://www.marinewarehouse.net/images/maxwell/windlasses_winches/VW1000.jpg;" value="" vertex="1">
+          <mxGeometry height="156.5" width="156.5" x="476.25" y="660.5" as="geometry" />
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-46" parent="oYoT9YH4wfMcaHvqYSbv-1" style="rounded=0;whiteSpace=wrap;html=1;" value="24 Volt distribution board" vertex="1">
+          <mxGeometry height="150" width="313.75" x="510" y="977" as="geometry" />
+        </mxCell>
+        <mxCell id="0Ed-pkOiWKB1hVvjAuwc-0" edge="1" parent="oYoT9YH4wfMcaHvqYSbv-1" source="oYoT9YH4wfMcaHvqYSbv-47" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="oYoT9YH4wfMcaHvqYSbv-41" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-47" parent="oYoT9YH4wfMcaHvqYSbv-1" style="rounded=0;whiteSpace=wrap;html=1;" value="AC distribution board" vertex="1">
+          <mxGeometry height="250" width="150" x="-100" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-48" parent="oYoT9YH4wfMcaHvqYSbv-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="2 x 24V-5000&lt;div&gt;Parallel or stand alone&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="110.7" x="229.3" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-49" edge="1" parent="oYoT9YH4wfMcaHvqYSbv-1" source="oYoT9YH4wfMcaHvqYSbv-51" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;startArrow=classic;startFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-50" edge="1" parent="oYoT9YH4wfMcaHvqYSbv-1" source="oYoT9YH4wfMcaHvqYSbv-51" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;startArrow=classic;startFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="610" />
+            </Array>
+            <mxPoint x="190" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-51" parent="oYoT9YH4wfMcaHvqYSbv-1" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://www.outbackmarine.com.au/assets/full/VIC.LYN034170210.jpg?20240813090224;" value="" vertex="1">
+          <mxGeometry height="80" width="80" x="150" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-53" parent="oYoT9YH4wfMcaHvqYSbv-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="Smart BMS" vertex="1">
+          <mxGeometry height="30" width="60" x="80" y="660.5" as="geometry" />
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-56" edge="1" parent="oYoT9YH4wfMcaHvqYSbv-1" source="oYoT9YH4wfMcaHvqYSbv-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.282;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;" target="oYoT9YH4wfMcaHvqYSbv-37" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="142" y="1002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-57" parent="oYoT9YH4wfMcaHvqYSbv-1" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://www.energyeco.com.au/cdn/shop/files/CYR010230010R-_-Cyrix-ct-1224V-230A-intelligent-battery-combiner_front-removebg-preview.png?v=1728448275&amp;width=1946;" value="" vertex="1">
+          <mxGeometry height="77" width="115.39" x="264.60999999999996" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="aWxgbQ7BBqUxEdyppnXm-0" edge="1" parent="oYoT9YH4wfMcaHvqYSbv-1" source="oYoT9YH4wfMcaHvqYSbv-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.418;entryY=0.968;entryDx=0;entryDy=0;entryPerimeter=0;" target="oYoT9YH4wfMcaHvqYSbv-37" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-59" parent="oYoT9YH4wfMcaHvqYSbv-1" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://www.energyeco.com.au/cdn/shop/files/CYR010230010R-_-Cyrix-ct-1224V-230A-intelligent-battery-combiner_front-removebg-preview.png?v=1728448275&amp;width=1946;" value="" vertex="1">
+          <mxGeometry height="77" width="115.39" x="380" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-60" parent="oYoT9YH4wfMcaHvqYSbv-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="24V main engine alternator" vertex="1">
+          <mxGeometry height="30" width="60" x="285.39" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-61" parent="oYoT9YH4wfMcaHvqYSbv-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="24 volt windlass" vertex="1">
+          <mxGeometry height="28.5" width="60" x="510" y="832.25" as="geometry" />
+        </mxCell>
+        <mxCell id="aWxgbQ7BBqUxEdyppnXm-1" parent="oYoT9YH4wfMcaHvqYSbv-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="230V Bowthruster" vertex="1">
+          <mxGeometry height="30" width="60" x="-100" y="840" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="zg24EWFgsyMsJrVr_lWO" name="Page-2">
+    <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
