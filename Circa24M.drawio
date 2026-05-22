@@ -139,17 +139,15 @@
         <mxCell id="008V_TVZDAGot_7ZYPlG-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="24V Busbar" vertex="1">
           <mxGeometry height="40" width="670" x="120" y="960" as="geometry" />
         </mxCell>
-        <mxCell id="008V_TVZDAGot_7ZYPlG-52" edge="1" parent="1" source="008V_TVZDAGot_7ZYPlG-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;startArrow=classic;startFill=1;" value="">
+        <mxCell id="008V_TVZDAGot_7ZYPlG-52" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;startArrow=classic;startFill=1;" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="384" y="640" />
               <mxPoint x="402" y="640" />
             </Array>
+            <mxPoint x="383.52380952380963" y="670" as="sourcePoint" />
             <mxPoint x="402" y="600" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="008V_TVZDAGot_7ZYPlG-28" parent="1" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://cdn1.comptoirnautique.com/51013-large_default/se300-electric-bow-thruster-o-300-mm-48v.jpg;" value="" vertex="1">
-          <mxGeometry height="147" width="147" x="310" y="670" as="geometry" />
         </mxCell>
         <mxCell id="008V_TVZDAGot_7ZYPlG-54" edge="1" parent="1" source="008V_TVZDAGot_7ZYPlG-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=0.25;exitY=0;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" target="008V_TVZDAGot_7ZYPlG-26" value="">
           <mxGeometry relative="1" as="geometry">
@@ -234,6 +232,9 @@
         </mxCell>
         <mxCell id="SV5i6e4VI1yvzVifsj4v-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="48 volt alternators" vertex="1">
           <mxGeometry height="30" width="60" x="632.75" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="-V2Z1vDds8Nh8yQ4blbn-1" parent="1" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://www.marvo.com.au/wp-content/uploads/2010/09/Side-Power.jpg;" value="" vertex="1">
+          <mxGeometry height="144" width="144.46" x="311.77" y="666.75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -365,9 +366,6 @@
             <mxPoint x="730" y="610" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oYoT9YH4wfMcaHvqYSbv-41" parent="oYoT9YH4wfMcaHvqYSbv-1" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://cdn1.comptoirnautique.com/51013-large_default/se300-electric-bow-thruster-o-300-mm-48v.jpg;" value="" vertex="1">
-          <mxGeometry height="147" width="147" x="-120" y="680" as="geometry" />
-        </mxCell>
         <mxCell id="oYoT9YH4wfMcaHvqYSbv-42" edge="1" parent="oYoT9YH4wfMcaHvqYSbv-1" source="oYoT9YH4wfMcaHvqYSbv-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=0.25;exitY=0;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" target="oYoT9YH4wfMcaHvqYSbv-37" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -382,8 +380,10 @@
         <mxCell id="oYoT9YH4wfMcaHvqYSbv-46" parent="oYoT9YH4wfMcaHvqYSbv-1" style="rounded=0;whiteSpace=wrap;html=1;" value="24 Volt distribution board" vertex="1">
           <mxGeometry height="150" width="313.75" x="510" y="977" as="geometry" />
         </mxCell>
-        <mxCell id="0Ed-pkOiWKB1hVvjAuwc-0" edge="1" parent="oYoT9YH4wfMcaHvqYSbv-1" source="oYoT9YH4wfMcaHvqYSbv-47" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="oYoT9YH4wfMcaHvqYSbv-41" value="">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="0Ed-pkOiWKB1hVvjAuwc-0" edge="1" parent="oYoT9YH4wfMcaHvqYSbv-1" source="oYoT9YH4wfMcaHvqYSbv-47" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="aWxgbQ7BBqUxEdyppnXm-2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-40" y="670" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="oYoT9YH4wfMcaHvqYSbv-47" parent="oYoT9YH4wfMcaHvqYSbv-1" style="rounded=0;whiteSpace=wrap;html=1;" value="AC distribution board" vertex="1">
           <mxGeometry height="250" width="150" x="-100" y="350" as="geometry" />
@@ -434,6 +434,9 @@
         </mxCell>
         <mxCell id="aWxgbQ7BBqUxEdyppnXm-1" parent="oYoT9YH4wfMcaHvqYSbv-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="230V Bowthruster" vertex="1">
           <mxGeometry height="30" width="60" x="-100" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="aWxgbQ7BBqUxEdyppnXm-2" parent="oYoT9YH4wfMcaHvqYSbv-1" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://www.marvo.com.au/wp-content/uploads/2010/09/Side-Power.jpg;" value="" vertex="1">
+          <mxGeometry height="144" width="144.46" x="-100" y="680" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
