@@ -361,7 +361,7 @@
         <mxCell id="oYoT9YH4wfMcaHvqYSbv-37" parent="oYoT9YH4wfMcaHvqYSbv-1" style="rounded=0;whiteSpace=wrap;html=1;" value="24V Busbar" vertex="1">
           <mxGeometry height="40" width="670" x="120" y="560" as="geometry" />
         </mxCell>
-        <mxCell id="oYoT9YH4wfMcaHvqYSbv-38" edge="1" parent="oYoT9YH4wfMcaHvqYSbv-1" source="oYoT9YH4wfMcaHvqYSbv-37" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=0.915;exitY=0.99;exitDx=0;exitDy=0;exitPerimeter=0;" target="oYoT9YH4wfMcaHvqYSbv-46" value="">
+        <mxCell id="oYoT9YH4wfMcaHvqYSbv-38" edge="1" parent="oYoT9YH4wfMcaHvqYSbv-1" source="oYoT9YH4wfMcaHvqYSbv-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=0.915;exitY=0.99;exitDx=0;exitDy=0;exitPerimeter=0;" target="oYoT9YH4wfMcaHvqYSbv-46" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="730" y="610" as="sourcePoint" />
           </mxGeometry>
